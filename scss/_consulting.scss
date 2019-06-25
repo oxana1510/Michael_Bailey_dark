@@ -1,0 +1,80 @@
+.consulting{
+	background: url(../img/consalting-bg.jpg) no-repeat bottom center;
+	background-size: cover;
+.container{
+	padding: 10rem 10rem 17rem;
+h2{
+	margin-bottom: 8rem;
+}
+.consulting-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+.consulting-text{
+	width: 52.2rem;
+	color: #777777;
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	padding-left: 7rem;
+p{
+	margin-bottom: 3rem;
+	font-family: $font-p;
+}
+.bth-link{
+	color: #4b80b7;
+	margin-top: 4.5rem;
+	margin-left: 0;
+&:hover{
+	color: #fff;
+	background: #3f7c9d;
+	border-color: #3f7c9d;
+}
+}
+}
+}
+}
+}
+@media screen and (max-width: 1090px){
+.consulting	.container{
+	padding: 10rem 5rem 12rem;
+.consulting-item .consulting-text{
+	padding-left: 1.5rem;
+}
+}
+}
+@media screen and (max-width: 920px){
+.consulting	.container{
+	padding: 5rem 2rem 7rem;
+h2{
+	margin-bottom: 4rem;
+}
+.consulting-item{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+.consulting-text{
+	width: 100%;
+.bth-link{
+	margin: auto;
+}
+}
+}
+}	
+}
+@media screen and (max-width: 576px){
+.consulting	.container .consulting-item{
+.consulting-icons img{
+	width: 90%;
+	height: auto;
+}
+.consulting-text{
+p{
+	margin-bottom: 2rem;
+}
+}
+}
+}
